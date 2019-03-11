@@ -29,3 +29,11 @@ for aaa in range(1, ccc + 1):
 #   for x in range(1,10):
 #     print('{0:2d} '.format(x*y),end="")
 #   print('')
+
+
+# 綺麗な九九
+
+eee = int(input("行数を入力して下さい:"))
+fff = int(input("列数を入力して下さい:"))
+
+print(f"str(eee) x str(fff) = {})
