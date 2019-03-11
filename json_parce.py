@@ -43,12 +43,9 @@ r = {
 }
 
 print(type(r))
-print(r["Python"]["目的"])
+print(r["Python"]["期日"])
+
 
 for xxx in r:
     print(xxx)
     print(type(xxx))
-    yyy = xxx.split(":")
-    print(yyy)
-    # for yyy in xxx:
-    #     print(yyy)
