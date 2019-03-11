@@ -27,3 +27,18 @@ test.json
 xxx = open('test.json', 'r')
 yyy = json.lead(xxx)
 print(yyy)
+
+# ここから別の例題
+
+{
+    "Python": {
+        "目的": "AI機械学習",
+        "期日": 2018,
+        "コース": "Python機械学習"
+    },
+    "Original": {
+        "目的": "Python起業コース",
+        "期日": 2017,
+        "コース": "起業Webサービス"
+    }
+}
