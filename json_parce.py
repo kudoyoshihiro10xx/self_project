@@ -42,9 +42,10 @@ r = {
     }
 }
 
-print(type(r))
-print(r["Python"]["期日"])
+# print(type(r))
+# print(r["Python"]["期日"])
 
 for xxx in r.values():
+    print(xxx)
     # valueだけを取り出すと返した結果が辞書になる
     print(xxx["期日"])
