@@ -1,13 +1,11 @@
-xxx = int(input("いくつまで調べますか？: "))
+max_number = int(input("いくつまで調べますか？: "))
 
-yyy = 0
-
-for yyy in range(1, xxx):
-    if yyy % 15 == 0:
+for number in range(1, max_number):
+    if number % 15 == 0:
         print("FizzBuzz")
-    elif yyy % 3 == 0:
+    elif number % 3 == 0:
         print("Fizz")
-    elif yyy % 5 == 0:
+    elif number % 5 == 0:
         print("Buzz")
     else:
-        print(yyy)
+        print(number)
